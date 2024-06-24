@@ -1,0 +1,105 @@
+body{
+    background-color:#A5FFD6 ;
+    
+  }
+.header-main-nav{
+    li {
+      display: inline;
+      color: #FFF;
+    }
+    
+  }
+  .back{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/aboutimage.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  .tint h1{
+    margin: 350px;
+    font-size: 100px;
+    padding-left: 200px;
+    color: #FF686b;
+  }
+  /*.tint{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(238, 199, 204);
+  }*/
+  .mission {
+    color: #FFF; 
+    background-color: #feb9b3;
+    border:2px #FF686B;
+    border-radius: 30px;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
+  transition: 1s;
+  
+  }
+  .mission:hover{
+transform: scale(1.3);
+  }
+  .mission h4{
+    font-size: 30;
+    color: #FFF;
+  }
+  
+  .goals{
+    color: #FFFFFF; 
+    background-color:#feb9b3;
+    border:2px #FF686B;
+    border-radius: 30px;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+  margin-left: 500px;
+  margin-top: 100px;
+  transition: 1s;
+
+  
+  }
+  .goals:hover{
+    transform: scale(1.3);
+      }
+  .goals h2{
+    font-size: 30px;
+    color: #FFFFFF;
+
+  }
+  .values h3{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .values {
+    color: #FFFFFF; 
+    background-color: #feb9b3;
+    border:2px #FF686B;
+    border-radius: 30px;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transition: 1s;
+
+  }
+  .values:hover{
+    transform: scale(1.3);
+      }
+      footer{
+        background-color:rgb(132, 213, 189) ;
+        display: flex;
+        height: 30vh;
+        padding-top: 80px;
+        width: 100%;
+        justify-content: space-between;
+      }

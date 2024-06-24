@@ -1,0 +1,59 @@
+.heading{
+    font-size: 50px;
+    margin-left: 500px;
+    color: #FFFFFF;
+
+}
+
+.card{
+    background-color: #A5FFD6;
+    padding-right: 40px;
+    padding-left: 50px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    margin-bottom:60px ;
+    padding-top: 10px;
+    transition: 1s;
+    
+    
+    /*align-content: space-between;*/
+    
+
+}
+.books{
+    max-width: 60%;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    /*display: flex;*/
+}
+.books h2,h3,h4,h6{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.price{
+    color:#FF686B;
+    padding-left: 300px;
+    font-size: 20px;
+}
+button{
+    width: 120px;
+}
+.card img{
+    height:150px;
+    padding-left: 300px;
+    
+    
+}
+.card:hover{
+    transform: scale(1.2);
+      }
+      footer{
+        background-color:rgb(132, 213, 189) ;
+        display: flex;
+        height: 30vh;
+        padding-top: 80px;
+        width: 100%;
+        justify-content: space-between;
+      }
